@@ -1,0 +1,28 @@
+div {
+    display: block;
+}
+body {
+    text-align: center;
+    background-color: gainsboro;
+}
+.intro {
+    position: relative;
+    padding: 100px;
+}
+.projects {
+    font-size: large;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    width: 950px;
+    gap: 5px;
+    text-align: left;
+}
